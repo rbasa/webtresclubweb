@@ -141,12 +141,12 @@ body.dark-theme {
   border-radius: 50%;
   overflow: hidden;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
+
 }
 
 .profile__perfil img {
-  width: 300px;
+  width: .5rem;
 }
 
 .profile__border {
@@ -157,7 +157,7 @@ body.dark-theme {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  margin-bottom: .75rem;
+  margin-bottom: .3rem;
 }
 
 .profile__name {
