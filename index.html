@@ -6,70 +6,70 @@
         <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="assets/css/stylesBootstrap.css" rel="stylesheet" />
         <title>WebtrES</title>
     </head>
     <body>
-        <header class="profile container">
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
-                            <img src="assets/img/uwu.png" alt="WebtrES">
-                        </div>
-                    </div>
-
-                    <h2 class="profile__name">WebtrES</h2>
-                    <h3 class="profile__profession">Comunidad de desarrolladores Web3</h3>
-
-                    <ul class="profile__social">
-                        <a href="https://twitter.com/martriay" target="_blank" class="profile__social-link">
-                            <i class="ri-twitter-line"></i>
-                        </a>
-                        <a href="https://github.com/LautiRadboone/WebtrES" target="_blank" class="profile__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </ul>
+      <header class="masthead">
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-end">
+                    <h1 class="text-white font-weight-bold">WebtrES</h1>
+                    <hr class="divider" />
                 </div>
-
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">Origen</h3>
-                        <p class="profile__info-description">
-                            WebtrES tiene sus comienzos en agosto de 2021, creada por Martín Triay,<br/>
-                            en Junio de 2022 tuvo su primer "juntada" de manera remota, dos meses después <br/>
-                            en Agosto durante la ETH Latam tuvo su segunto meet, el primero presencial :D
-                        </p>
-                    </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">Sobre Nosotros</h3>
-                        <p class="profile__info-description"> 
-                            Somos una comunidad hispanohablante apasionada por el desarrollo Web 3.0<br/>
-                            integrada por desarrolladores de diferentes ramas,<br/>
-                            todos contibuyendo a que el aprendizaje sea mas ameno y divertido en conjunto 
-                        </p>
-                    </div>
-                </div>
-
-                <div class="profile__buttons">
-                    <a href="https://discord.gg/6PJ9uKXyWR" class="button">
-                        Unirme en Discord <i class="ri-discord-fill"></i>
+                
+                <div class="col-lg-8 align-self-baseline">
+                  <a href="https://discord.gg/6PJ9uKXyWR" class="button">
+                    Unite al Discord <i class="ri-discord-fill"></i>
+                  </a>                    
+                  <p class="text-white-75 mb-5">Comunidad de desarrolladores Web3</p>
+                  <ul class="profile__social">
+                    <a href="https://twitter.com/martriay" target="_blank" class="profile__social-link">
+                      <i class="ri-twitter-line"></i>
                     </a>
+                    <a href="https://github.com/LautiRadboone/WebtrES" target="_blank" class="profile__social-link">
+                      <i class="ri-github-line"></i>
+                    </a>
+                  </ul>
                 </div>
-
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">Recursos</h3>
-                        <p class="profile__info-description"> 
-                            ¿Queres aprender sobre desarrollo en blockchain y no sabes por donde empezar?<br/>
-                            No te preocupes, acá abajo te dejamos algunos recursos que te pueden ser de utilidad,<br/>
-                            Una recomendación, Sé curioso, indagá y preguntá, para eso esta nuestra comunidad :)
-                        </p>
-                    </div>
-                </div>
+                
             </div>
-        </header>
+        </div>
+    </header>
+    <section class="page-section bg-light" id="services">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <img class="primer-seccion" src="./assets/img/rocket.png" alt="..." />
+            </span>
+            <h4 class="my-3">Origen</h4>
+            <p class="text-muted">WebtrES tiene sus comienzos en agosto de 2021, creada por Martín Triay,
+              en Junio de 2022 tuvo su primer "juntada" de manera remota, dos meses después
+              en Agosto durante la ETH Latam tuvo su segunto meet, el primero presencial :D</p>
+          </div>
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <img class="primer-seccion" src="./assets/img/team.png" alt="..." />
+              </span>
+              <h4 class="my-3">Sobre Nosotros</h4>
+              <p class="text-muted">Somos una comunidad hispanohablante apasionada por el desarrollo Web 3.0
+                integrada por desarrolladores de diferentes ramas,
+                todos contibuyendo a que el aprendizaje sea mas ameno y divertido en conjunto</p>
+            </div>
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <img class="primer-seccion" src="./assets/img/resources.png" alt="..." />
+              </span>
+              <h4 class="my-3">Recursos</h4>
+              <p class="text-muted">¿Queres aprender sobre desarrollo en blockchain y no sabes por donde empezar?
+                No te preocupes, acá abajo te dejamos algunos recursos que te pueden ser de utilidad,
+                Una recomendación, Sé curioso, indagá y preguntá, para eso esta nuestra comunidad :)</p>
+            </div>
+        </div>
+      </div>
+    </section>
         <main class="main">
             <section class="filters container">
                 <ul class="filters__content">

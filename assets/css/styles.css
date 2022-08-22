@@ -241,7 +241,8 @@ body.dark-theme {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: rgb(4, 22, 87);
+  ;
 }
 
 .button__small {
@@ -510,4 +511,10 @@ body.dark-theme {
   .footer__copy {
     margin: 4.5rem 0 2.5rem;
   }
+}
+.primer-seccion{
+  max-width: 150px;
+}
+.subtitulo{
+  color: rgb(107, 56, 232);
 }
